@@ -15,6 +15,8 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Program:
 
+~~~py
+
 import numpy as np
 
 from sklearn.linear_model import SGDRegressor
@@ -94,6 +96,7 @@ print("\nPrediction for New House")
 print("Predicted Price (Lakhs):", round(prediction[0][0], 2))
 
 print("Predicted Occupants:", round(prediction[0][1]))
+~~~
 
 ## Output:
 
